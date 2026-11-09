@@ -1,45 +1,44 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="ブラック企業から抜け出せ"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「ブラック企業から抜け出せ」[l][r]
 
-メロスは激怒した。[l][r]
+社内に18時のチャイムが鳴る。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+定時だ！今すぐ会社を抜け出して彼女とデートに行かないと...！[l][r]
 
-(中略)[l][r]
+しかし、目の前に上司が立ち塞がった。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+上司「帰り？ちょうどよかった！この資料明日までに仕上げといて」[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_accept] →「わかりました！」 [endlink][r]
+[link target=*tag_stomach] →「おなかが痛いので失礼します」 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_accept
 
 [cm]
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+あなたは優しすぎるあまり断れなかった。[l][r]
+そして、デートをドタキャン、終電も逃した。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_stomach
 
-[bg storage=run.jpg time=500]
+[bg storage=stomach.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+上司が「え、お、お大事に...」と怯んでいる！[l][r]
+あなたは隙を見てエレベーターまでダッシュ。デートにも間に合った...！[l][r]
 
 【 GOOD END 】[l][cm]
 
